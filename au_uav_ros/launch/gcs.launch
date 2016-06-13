@@ -1,5 +1,5 @@
 <launch>
 	<node name="ardu" pkg="au_uav_ros" type="ardu"/>
-	<node name="gcs" pkg="au_uav_ros" type="gcs" />
 	<node name="mover" pkg="au_uav_ros" type="mover"/>
+	<node name="gcs" pkg="au_uav_ros" type="gcs" />
 </launch>
