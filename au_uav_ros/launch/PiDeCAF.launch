@@ -1,5 +1,5 @@
 <launch>
-	<node name="xbee" pkg="au_uav_ros" type="xbee"/>
 	<node name="ardu" pkg="au_uav_ros" type="ardu"/>
 	<node name="mover" pkg="au_uav_ros" type="mover" />
+	<node name="xbee" pkg="au_uav_ros" type="xbee"/>
 </launch>
